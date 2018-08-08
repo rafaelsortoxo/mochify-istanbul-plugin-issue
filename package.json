@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mochify --plugin [ mochify-istanbul --exclude **/*.spec.js --dir coverage --report text --report html ] *.spec.js",
+    "test2": "npx mochify --plugin [ mochify-istanbul --exclude **/*.spec.js --dir coverage --report text --report html ] *.spec.js --url file:/tmp/index.html"
   },
   "author": "",
   "license": "ISC",
