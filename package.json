@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mochify --plugin [ mochify-istanbul --exclude **/*.spec.js --dir coverage --report text --report html ] *.spec.js",
-    "test2": "npx mochify --plugin [ mochify-istanbul --exclude **/*.spec.js --dir coverage --report text --report html ] *.spec.js --url file:/tmp/index.html"
+    "test": "npx mochify --plugin [ mochify-istanbul --exclude **/*.spec.js --dir coverage --report text --report html ] *.spec.js"
   },
   "author": "",
   "license": "ISC",
